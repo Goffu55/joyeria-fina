@@ -1,0 +1,168 @@
+@font-face{
+	src: url(../fonts/amigos.otf);
+	font-family: amigos;
+}
+@font-face{
+	src: url(../fonts/calibrib.ttf);
+	font-family: calibri-b;
+}
+@font-face{
+	src: url(../fonts/calibriL.ttf);
+	font-family: calibri-L;
+}
+@font-face{
+	src: url(../fonts/calibriLI.ttf);
+	font-family: calibri-LI;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%
+
+}
+a:hover{
+	text-decoration: none;
+}
+.flex{
+	display: flex;
+}
+
+/*  HEADER  */
+
+
+header{
+	display: block;
+	background-color: #b4946d;
+	padding: 10px 70px;
+	position: fixed;
+	z-index: 1000;
+	max-width: 100%;
+	width: 100%;
+}
+.menu ul{
+	margin: 0;
+	list-style: none;
+	border: none;
+	outline: none;
+	max-width: 100%;
+}
+.menu a{
+	color: #ffffff;
+	font-family: calibri-b;
+	font-size: 19px;
+}
+.icon{
+	justify-content: space-around;
+}
+.icon i{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+/*  SECTION 1  */
+
+.section1{
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+#banner-1{
+	padding: 80px 50px 40px; 
+	background-image: url(../img/fondo_banner.jpg);
+	background-size: cover;
+	max-width: 100%;
+	width: 100%;
+}
+#banner-1 img{
+	align-items: flex-end;
+}
+.content{
+	flex-direction: column;
+}
+.sentence1{
+	text-align: center;
+	font-family: calibri-L;
+	color: #4f3600;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+.sentence2{
+	text-align: center;
+	font-family: amigos;
+	color: #885d23;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+}
+.button-style-1{
+	font-family: calibri-b;
+	color: #8a6027;
+	font-size: 25px;
+	background-color: none;
+	border: 1px #8a6027 solid;
+	border-radius: 15px;
+}
+
+/*  SECTION 2  */
+
+.section2 .character-1{
+	padding: 50px 0;
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+}
+.section2 img{
+	width: 60%;
+}
+.title-style-1{
+	font-family: calibri-b;
+	color: #695029;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+.title-style-2{
+	font-family: calibri-L;
+	color: #695029;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+.img-character{
+	justify-content: flex-end;
+}
+
+/*  SECTION 3  */
+
+.sec-3{
+	margin: 0;
+	max-width: 100%;
+}
+.sec-left-3{
+	padding: 50px 0;
+	background-color: #fdfaf6;
+	border-top: #fefae0 3px solid;
+	border-bottom: #fefae0 3px solid;
+}
+.sec-left-3 button{
+	font-family: calibri-b;
+	background-color: #b68a5d;
+	color: #ffffff;
+	font-size: 25px;
+	border: 0;
+	padding: 10px 15px;
+	border-radius: 7px;
+}
+.p-sec-3{
+	text-align: center;
+	color: #bd9a63;
+	font-size: 25px;
+	font-family: calibri-L;
+	padding: 50px 100px; 
+	margin: 0;
+}
